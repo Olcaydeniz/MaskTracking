@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workaround", "Workaround\Workaround.csproj", "{BF73ECFC-7326-40C3-9486-4886A29CCA2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{E5A261CD-7165-4718-AAC7-777FB14D9E66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{B7AC566C-A1A0-4C09-86AF-452B18567501}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF73ECFC-7326-40C3-9486-4886A29CCA2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF73ECFC-7326-40C3-9486-4886A29CCA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF73ECFC-7326-40C3-9486-4886A29CCA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF73ECFC-7326-40C3-9486-4886A29CCA2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5A261CD-7165-4718-AAC7-777FB14D9E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A261CD-7165-4718-AAC7-777FB14D9E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A261CD-7165-4718-AAC7-777FB14D9E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A261CD-7165-4718-AAC7-777FB14D9E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7AC566C-A1A0-4C09-86AF-452B18567501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AC566C-A1A0-4C09-86AF-452B18567501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AC566C-A1A0-4C09-86AF-452B18567501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AC566C-A1A0-4C09-86AF-452B18567501}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BA7F830-FA2A-4375-BF77-D33FB74943A4}
+	EndGlobalSection
+EndGlobal
