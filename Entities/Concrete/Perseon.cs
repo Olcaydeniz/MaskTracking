@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Entities.Concrete
 {
-    public  class Perseon
+    public class Person
     {
-        public int FirstName { get; set; }
+        public string FirstName { get; set; }
         public string LastName { get; set; }
-        public int NationalIdentity { get; set; }
+        public long NationalIdentity { get; set; }
         public int DateOfBirthYear { get; set; }
+
     }
 }

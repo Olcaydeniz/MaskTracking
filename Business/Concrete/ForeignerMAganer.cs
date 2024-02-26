@@ -8,21 +8,21 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
-    //
-    public class PersonManager : IApplicantService
+    public class ForeignerMAganer : IApplicantService
     {
-        //encapsulation 
         public void ApplyForMask(Person person)
         {
-             
+            throw new NotImplementedException();
         }
-        public List<Person> GetList()
-        {
-            return null;
-        }
+
         public bool CheckPerson(Person person)
         {
-            return true;
+            throw new NotImplementedException();
+        }
+
+        public List<Person> GetList()
+        {
+            throw new NotImplementedException();
         }
     }
 }
