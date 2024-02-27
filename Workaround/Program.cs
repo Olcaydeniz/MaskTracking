@@ -1,6 +1,8 @@
-﻿using Entities.Concrete;
+﻿using Business.Concrete;
+using Entities.Concrete;
 using System;
 using System.Globalization;
+using System.Security.Cryptography.X509Certificates;
 using System.Transactions;
 
 namespace Workaround
@@ -60,6 +62,10 @@ namespace Workaround
             
             Person person1 = new Person();
             person1.FirstName = "Olcay";
+            person1.LastName = "Deniz";
+            person1.DateOfBirthYear = 2000;
+            person1.NationalIdentity =123 ;
+
 
             Person person2 = new Person();
             person2.FirstName = "Deniz";
@@ -77,8 +83,22 @@ namespace Workaround
                 Console.WriteLine(sehir);
             }
 
+
+            PttManager pttManager = new PttManager(new PersonManager());
+            pttManager.GiveMask(person1);
+
+
+
+
+            
+
+
             Console.ReadLine();
         }
+       
+        
+        
+        
         static void Message(string name="noname") 
         {
             Console.WriteLine("Hello"+ name);
@@ -93,14 +113,12 @@ namespace Workaround
 
         
 
-
-
         private static void variable()
         {
             string message = "Hello";
             double price = 10000;
             int number = 100;
-            bool isLgin = false;
+            bool isLogin = false;
 
             //string name = "Olcay";
             //string surname = "Deniz";
